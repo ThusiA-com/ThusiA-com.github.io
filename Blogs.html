@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="view port" content="width=device-width, initial-scale=1.0">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<title>Blogs</title>
+<!--linking the stylesheet file-->
+<link rel="stylesheet" href="style.css">
+</head>
+<!--blogs page-->
+<!--beginning of the body-->
+<body>
+
+    <div class="Top-bar">
+        <!--Top Bar-->
+        <!--Note: you can always use the <nav> tag for navigations-->
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a class="active" href="Blogs.html">Blogs</a></li>
+            <li><a href="Contact-Us.html">Contact Us</a></li>
+            <li><a href = "Donations.html"> Donations </a></li>
+        </ul>
+    </div>
+    <h1><b>BLOGS</b></h1>
+    <hr style="width: 75%;">
+<h3  style="text-align: center;">Love Education Day</h3>
+<p  style="text-align: center;">Usually, on the 12th of February every year, Ingqwele celebrate its occasion that is called ‘Love Education Day’ where students who come from indigence are given calculators, school uniforms and stationeries. On such occasions, students are not only advised to pursue careers that only require Mathematics and Physical Sciences, but also those that are well in-synch with their personalities. It is unwise to coerce a person into selecting a career that s/he does not even like. That is like asking a person who has no fingers to play a guitar. In so doing, we are of view that we are contributing into making a better South Africa with educated bureaucrats. Students who passed their matric are given registration fees as a symbol of showing appreciation and thanking them for the way they performed during their final examinations. This helps in reducing the number of matriculates who passed from staying at home due to being unable to pay registration fees.  
+
+</p>
+<br>
+<h3  style="text-align: center;">IMAGES OF OTHER PROGRAMMES OUR ORGANIZATION OFFERS/PARTAKES</h3>
+
+
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="pic3.jpg" style="width:100%">
+      <div class="text"><b>Training by the youth for CV writing and job readiness and the reward of certificates</b></div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="pic4.jpg" style="width:100%;">
+      <div class="text"><b>We organised a programme to donate to the children who are orphans with the believe that education change the living conditions of the poor masses.</b></div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="pic5.jpg" style="width:100%">
+      <div class="text"><b>The workshop was implemented in assisting youth in leadership skills so that they could empower themselves and decrease job seeker and improve job makers in our community.</b></div>
+    </div>
+
+    
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="pic7.jpg" style="width:100%">
+      <div class="text"><b>Donation that was made by Ingqwele community development to the family from disadvantage background during the pandemic of COVID-19.</b></div>
+    </div>
+
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+        <br>
+
+<img src="pic8.jpg"; height="700" width="700">
+<p>      This above article shows the workshop that was called Youth NPO Capacity Building Workshop, organised by Ingqwele community development organisation where by the different sectors of organisations sure casing their work and services that they rendering in different communities. We invited different stakeholders to link their NPO with their relevant department when they are looking for funding.</p>
+<br>
+<br>
+<br>
+<p  style="text-align: center;"><i>Our deepest fear is not that we are inadequate. Our deepest fear is that we are powerful beyond measure. It is our light, not our darkness that most frightens us. We ask ourselves, who am I to be brilliant, gorgeous, talented, and fabulous? Actually, who are we not to be?’’</i><b>- Marianne Williamson   </b></p>
+
+
+<div class="footer">
+    <p style="font-family: cursive;">&copy; Developed & Designed by Thusi Aphiwe in Durban,SA</p>
+    <br>
+    <a href="https://m.facebook.com/Ingqwele-Community-organization-100628728087916/?__tn__=%2Cg">Join us on our facebook page: <i style='font-size:24px' class='fab'>&#xf39e;</i></a>
+</div>
+</body>
+</html>
